@@ -5,7 +5,7 @@ metadata:
 spec:
   replicas: 2
   selector:
-    app: myonlinestore
+    app: myonlinestore-rc
     version: 2.6.1
   template:
     metadata:
