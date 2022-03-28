@@ -13,10 +13,10 @@ spec:
       labels:
         app: myonlinestore-rc
         version: 2.6.1
-        
+
     spec:
       containers:
       - name:  myonlinestore-container
-        image: dockerprasanth/myprasanth12mar22:1
+        image: dockerprasanth/myprasanth12mar22:2
         ports:
         - containerPort: 8080
